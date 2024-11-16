@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: UNLICENSED
-pragma solidity ^0.8.22;
+pragma solidity ^0.8.20;
 
 import {OApp, Origin, MessagingFee} from "@layerzerolabs/oapp-evm/contracts/oapp/OApp.sol";
 import {Ownable} from "@openzeppelin/contracts/access/Ownable.sol";
@@ -16,7 +16,7 @@ contract LaunchProxyContract is OApp {
 
     bytes constant OPTION = hex"000301001101000000000000000000000000000186A0";
 
-    mapping(string => address) public proxies;
+    mapping(uint256 => address) public proxies;
 
     constructor(
         address _endpoint
@@ -41,32 +41,32 @@ contract LaunchProxyContract is OApp {
             0x6EDCE65403992e310A62460808c4b910D972f10f,
             40275
         );
+
+        proxyFactoryAddress = address(new ProxyFactory());
     }
 
     function send(
         uint32 _chainId,
-        string memory _textsalt //bytes calldata _options
+        uint256 _salt //bytes calldata _options
     ) external payable {
-        if (proxies[_textsalt] != address(0)) {
+        if (proxies[_salt] != address(0)) {
             revert("Proxy already deployed");
         }
-
-        address uxAddress = ProxyFactory(proxyFactoryAddress).deployProxy(
-            _textsalt
-        );
-
-        proxies[_textsalt] = uxAddress;
-
-        bytes memory _payload = abi.encode(_textsalt);
         _lzSend(
             lz[_chainId].EID,
-            _payload,
+            abi.encode(_salt),
             OPTION,
             // Fee in native gas and ZRO token.
             MessagingFee(msg.value, 0),
             // Refund address in case of failed source message.
             payable(msg.sender)
         );
+
+        address uxAddress = ProxyFactory(proxyFactoryAddress).deployProxy(
+            _salt
+        );
+
+        proxies[_salt] = uxAddress;
     }
 
     /**
@@ -83,20 +83,19 @@ contract LaunchProxyContract is OApp {
         address,
         bytes calldata
     ) internal override {
-        string memory dataString = abi.decode(payload, (string));
 
         address uxAddress = ProxyFactory(proxyFactoryAddress).deployProxy(
-            dataString
+            abi.decode(payload, (uint256))
         );
 
-        proxies[dataString] = uxAddress;
+        proxies[abi.decode(payload, (uint256))] = uxAddress;
     }
 
     function quote(
         uint256 _chainId, // The destination chain ID.
-        address _addressToVerify
+        string memory salt
     ) public view returns (uint256 nativeFee, uint256 lzTokenFee) {
-        bytes memory _payload = abi.encode(_addressToVerify);
+        bytes memory _payload = abi.encode(salt);
         MessagingFee memory fee = _quote(
             lz[_chainId].EID,
             _payload,
@@ -122,13 +121,5 @@ contract LaunchProxyContract is OApp {
             size := extcodesize(_addr)
         }
         return size > 0;
-    }
-
-    function depositInContract() public payable {
-        // Deposit in the contract
-    }
-
-    function withdrawFromContract() public onlyOwner {
-        (bool success, ) = msg.sender.call{value: address(this).balance}("");
     }
 }

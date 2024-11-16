@@ -14,8 +14,9 @@ contract Verify is OApp {
     bytes constant OPTION = hex"0003010011010000000000000000000000000000ea60";
 
     constructor(
-        address _endpoint
-    ) OApp(_endpoint, msg.sender) Ownable(msg.sender) {
+        address _endpoint,
+        address _owner
+    ) OApp(_endpoint, _owner) Ownable(_owner) {
         // ETH Sepolia Testnet
         lz[11155111] = lzMetadata(
             0x6EDCE65403992e310A62460808c4b910D972f10f,
@@ -43,9 +44,8 @@ contract Verify is OApp {
 
     function send(
         uint32 _chainId,
-        address _addressToVerify
-    ) external payable //bytes calldata _options
-    {
+        address _addressToVerify //bytes calldata _options
+    ) external payable {
         // Encodes the message before invoking _lzSend.
         // Replace with whatever data you want to send!
         bytes memory _payload = abi.encode(_addressToVerify);
