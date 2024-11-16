@@ -1,0 +1,342 @@
+[
+    {
+        "address": "0x0000c49fc18b92f691cc737cb8af39e241f30000",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "optimism",
+        "other_type": "CA"
+    },
+    {
+        "address": "0x7acf0e6469a00757e162851dc4545dadc72cd0d8",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "polygon",
+        "other_type": "CA"
+    },
+    {
+        "address": "0x0e223db582e3fc2c47ba39f67a1e55b7a75f09fd",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "polygon",
+        "other_type": "EOA",
+        "balance": 10000000000000000
+    },
+    {
+        "address": "0x0d24cfaf9f384fee240c08044d5858d5eb38c736",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "polygon",
+        "other_type": "CA"
+    },
+    {
+        "address": "0x42ab5ac4e641dd6044d22ceb6985a0096ddb162f",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "polygon",
+        "other_type": "CA"
+    },
+    {
+        "address": "0x42ab5ac4e641dd6044d22ceb6985a0096ddb162f",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "arbitrum",
+        "other_type": "CA"
+    },
+    {
+        "address": "0x42ab5ac4e641dd6044d22ceb6985a0096ddb162f",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "optimism",
+        "other_type": "CA"
+    },
+    {
+        "address": "0x02a3ae211f2c9ab862c439665e0c62cc0761c0e0",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "polygon",
+        "other_type": "CA"
+    },
+    {
+        "address": "0xdbec4d48b7de57714298185e9c93b8bd52133cc6",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "polygon",
+        "other_type": "CA"
+    },
+    {
+        "address": "0x770153366d9b0aaf1ff0f87cbec27d942f888dd2",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "polygon",
+        "other_type": "EOA",
+        "balance": 50000000000000000
+    },
+    {
+        "address": "0xc440c072927a6e65ae1e75fd990961bfcbba04dc",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "polygon",
+        "other_type": "CA"
+    },
+    {
+        "address": "0xc440c072927a6e65ae1e75fd990961bfcbba04dc",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "arbitrum",
+        "other_type": "CA"
+    },
+    {
+        "address": "0xfe63667ead82ae168782e80492393f8d4d6ada7c",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "polygon",
+        "other_type": "CA"
+    },
+    {
+        "address": "0xfe63667ead82ae168782e80492393f8d4d6ada7c",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "arbitrum",
+        "other_type": "CA"
+    },
+    {
+        "address": "0xfe63667ead82ae168782e80492393f8d4d6ada7c",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "optimism",
+        "other_type": "CA"
+    },
+    {
+        "address": "0x7e708ba046ec21e57b5530ae0e947e5ba2d99f5d",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "polygon",
+        "other_type": "CA"
+    },
+    {
+        "address": "0x9df0901f4e4a72924fb4bc6c4d4ecb071b03ec8c",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "polygon",
+        "other_type": "CA"
+    },
+    {
+        "address": "0xfcfb75484eeee3dd8d591f40b4421de875ab3dd5",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "arbitrum",
+        "other_type": "CA"
+    },
+    {
+        "address": "0xc7f9882450bfb92d961c8b591dbe51335de14d04",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "polygon",
+        "other_type": "CA"
+    },
+    {
+        "address": "0xa68fc7a871380eaddd03fc513e3e85ebeb53ffd6",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "polygon",
+        "other_type": "CA"
+    },
+    {
+        "address": "0xb856cc3afc1cdc9c67989ad89747d6d1982611a9",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "polygon",
+        "other_type": "CA"
+    },
+    {
+        "address": "0x02fae054acd7fb1615471319c4e3029dfbc2b23c",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "arbitrum",
+        "other_type": "CA"
+    },
+    {
+        "address": "0x2eeedd564564e42ec28ee51f2fca99682dc2768f",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "optimism",
+        "other_type": "EOA",
+        "balance": 2000000000000000
+    },
+    {
+        "address": "0x3578d61385721245b17fe74ce34c46014020f2ed",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "base",
+        "other_type": "CA"
+    },
+    {
+        "address": "0x35b0ecc952cef736c12a7ef3a830f438f67912b3",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "arbitrum",
+        "other_type": "EOA",
+        "balance": 355200000000000000
+    },
+    {
+        "address": "0x1ad6f96cd19dd0cbb4505e78cca00f8a5fddab47",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "arbitrum",
+        "other_type": "CA"
+    },
+    {
+        "address": "0x58d13aadcbdd4e8c5974e390ec69aa1c502cd655",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "polygon",
+        "other_type": "CA"
+    },
+    {
+        "address": "0x246ebb0514c69767547213e2ff56223062628ef9",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "polygon",
+        "other_type": "CA"
+    },
+    {
+        "address": "0x246ebb0514c69767547213e2ff56223062628ef9",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "arbitrum",
+        "other_type": "CA"
+    },
+    {
+        "address": "0x246ebb0514c69767547213e2ff56223062628ef9",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "optimism",
+        "other_type": "CA"
+    },
+    {
+        "address": "0xdd65582104780a6bb34f42f9a5e35cd24f27043b",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "polygon",
+        "other_type": "CA"
+    },
+    {
+        "address": "0xdd65582104780a6bb34f42f9a5e35cd24f27043b",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "arbitrum",
+        "other_type": "CA"
+    },
+    {
+        "address": "0xdd65582104780a6bb34f42f9a5e35cd24f27043b",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "optimism",
+        "other_type": "CA"
+    },
+    {
+        "address": "0x6f5258feb5862b661829315841b0718d6e56ca2c",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "CA"
+    },
+    {
+        "address": "0xcb92e7a368c910021c229862bee32accc299b271",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "polygon",
+        "other_type": "CA"
+    },
+    {
+        "address": "0xcb92e7a368c910021c229862bee32accc299b271",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "arbitrum",
+        "other_type": "CA"
+    },
+    {
+        "address": "0xcb92e7a368c910021c229862bee32accc299b271",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "optimism",
+        "other_type": "CA"
+    },
+    {
+        "address": "0xc1c1031e4a44b98707203480029e6576cb3267e3",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "CA"
+    },
+    {
+        "address": "0x86cabf9ed18201c957c87872aa4a43072cd3210b",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "polygon",
+        "other_type": "CA"
+    },
+    {
+        "address": "0x2b938f00a8a32a1295983711f007ffae33d035cf",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "polygon",
+        "other_type": "CA"
+    },
+    {
+        "address": "0x2b938f00a8a32a1295983711f007ffae33d035cf",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "arbitrum",
+        "other_type": "CA"
+    },
+    {
+        "address": "0x2b938f00a8a32a1295983711f007ffae33d035cf",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "optimism",
+        "other_type": "CA"
+    },
+    {
+        "address": "0xd2f6961bbc1616011d319706091ca9bd51c5be13",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "polygon",
+        "other_type": "CA"
+    },
+    {
+        "address": "0x673aa9d23731e9c8771c511666b1bf9da1f4af3d",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "polygon",
+        "other_type": "CA"
+    },
+    {
+        "address": "0xe1b91e2bbc1ca6d3261392ce8609fddcade34ea6",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "optimism",
+        "other_type": "CA"
+    },
+    {
+        "address": "0xa0ecce621d530e37afb8a2837bab5a910af7e6dd",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "polygon",
+        "other_type": "CA"
+    },
+    {
+        "address": "0xe543e05b1191f8e8e29daf5daaa2ef35bbb41d86",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "polygon",
+        "other_type": "CA"
+    },
+    {
+        "address": "0x5a15e3fb8a84ea6d23ca8ac7bd642aeb0fddba41",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "polygon",
+        "other_type": "CA"
+    }
+]
