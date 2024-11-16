@@ -112,6 +112,9 @@ button:focus-visible {
   padding: 35px;
   z-index: 10;
   background:none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .dopperChainBadge{
@@ -123,6 +126,11 @@ button:focus-visible {
   display: flex;
   justify-content: center;
   align-items: center;
+background: rgba( 255, 255, 255, 0.01 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 1px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
 .dopperAddressBadge{
@@ -164,3 +172,19 @@ button:focus-visible {
   box-shadow: 0px 0px 30px 0px hsla(50, 100%, 63%, 0.5) inset;
 }
 
+.check{
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chainTab{
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width:  250px;
+  height: 66px;
+}
