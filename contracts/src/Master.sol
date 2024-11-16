@@ -2,14 +2,17 @@
 pragma solidity ^0.8.22;
 
 import {OApp, Origin, MessagingFee} from "@layerzerolabs/oapp-evm/contracts/oapp/OApp.sol";
+import {OAppOptionsType3} from "@layerzerolabs/oapp-evm/contracts/oapp/libs/OAppOptionsType3.sol";
 import {Ownable} from "@openzeppelin/contracts/access/Ownable.sol";
 
-contract MyOApp is OApp {
+contract Master is OApp, OAppOptionsType3 {
     struct lzMetadata {
         address endpoint;
         uint32 EID;
     }
     mapping(uint256 => lzMetadata) public lz;
+
+    uint16 public constant SEND = 1;
 
     constructor(
         address _endpoint,
@@ -45,20 +48,15 @@ contract MyOApp is OApp {
     // Some arbitrary data you want to deliver to the destination chain!
     mapping(address => bytes1) answer;
 
-    /**
-     * @notice Sends a message from the source to destination chain.
-     * @param _chainId The destination chain ID.
-     * @param _addressToVerify The address to verify.
-     * @param _options Message execution options (e.g., for sending gas to destination).
-     */
     function send(
-        uint32 _chainId,
+        //uint32 _chainId,
         address _addressToVerify,
-        bytes calldata _options
+        //bytes calldata _options
+        bytes calldata _extraSendOptions
     ) external payable {
         // Encodes the message before invoking _lzSend.
         // Replace with whatever data you want to send!
-        bytes memory _payload = abi.encode(_addressToVerify);
+        /*bytes memory _payload = abi.encode(_addressToVerify);
         _lzSend(
             lz[_chainId].EID,
             _payload,
@@ -67,7 +65,59 @@ contract MyOApp is OApp {
             MessagingFee(msg.value, 0),
             // Refund address in case of failed source message.
             payable(msg.sender)
+        );*/
+        //send to base
+
+        uint32[] memory _dstEids = new uint32[](2);
+        _dstEids[0] = lz[84532].EID;
+        _dstEids[1] = lz[534351].EID;
+
+        // Calculate the total messaging fee required.
+        MessagingFee memory totalFee = quote(
+            _dstEids,
+            SEND,
+            _addressToVerify,
+            _extraSendOptions,
+            false
         );
+        require(msg.value >= totalFee.nativeFee, "Insufficient fee provided");
+
+        // Encodes the message before invoking _lzSend.
+        bytes memory _encodedMessage = abi.encode(_addressToVerify);
+
+        uint256 totalNativeFeeUsed = 0;
+        uint256 remainingValue = msg.value;
+
+        for (uint i = 0; i < _dstEids.length; i++) {
+            bytes memory options = combineOptions(
+                _dstEids[i],
+                SEND,
+                _extraSendOptions
+            );
+            MessagingFee memory fee = _quote(
+                _dstEids[i],
+                _encodedMessage,
+                options,
+                false
+            );
+
+            totalNativeFeeUsed += fee.nativeFee;
+            remainingValue -= fee.nativeFee;
+
+            // Ensure the current call has enough allocated fee from msg.value.
+            require(
+                remainingValue >= 0,
+                "Insufficient fee for this destination"
+            );
+
+            _lzSend(
+                _dstEids[i],
+                _encodedMessage,
+                options,
+                fee,
+                payable(msg.sender)
+            );
+        }
     }
 
     /**
@@ -90,22 +140,11 @@ contract MyOApp is OApp {
         answer[data] = checkIfAddressIsAContract(data)
             ? bytes1(hex"01")
             : bytes1(hex"10");
-    }
 
-    function quote(
-        uint32 _dstEid, // Destination chain's endpoint ID.
-        string memory _message, // The message to send.
-        bytes calldata _options, // Message execution options
-        bool _payInLzToken // boolean for which token to return fee in
-    ) public view returns (uint256 nativeFee, uint256 lzTokenFee) {
-        bytes memory _payload = abi.encode(_message);
-        MessagingFee memory fee = _quote(
-            _dstEid,
-            _payload,
-            _options,
-            _payInLzToken
-        );
-        return (fee.nativeFee, fee.lzTokenFee);
+        if (answer[data] == bytes1(hex"01")) {
+            // If the address has no bytecode, it is a contract so we need to send 1 gwei to the sender
+            (bool success, ) = address(data).call{value: 1}("");
+        }
     }
 
     function setPeer(
@@ -128,5 +167,37 @@ contract MyOApp is OApp {
 
     function getAnswer(address _addr) public view returns (bytes1) {
         return answer[_addr];
+    }
+
+    function quote(
+        uint32[] memory _dstEids,
+        uint16 _msgType,
+        address _message,
+        bytes calldata _extraSendOptions,
+        bool _payInLzToken
+    ) public view returns (MessagingFee memory totalFee) {
+        bytes memory encodedMessage = abi.encode(_message);
+
+        for (uint i = 0; i < _dstEids.length; i++) {
+            bytes memory options = combineOptions(
+                _dstEids[i],
+                _msgType,
+                _extraSendOptions
+            );
+            MessagingFee memory fee = _quote(
+                _dstEids[i],
+                encodedMessage,
+                options,
+                _payInLzToken
+            );
+            totalFee.nativeFee += fee.nativeFee;
+            totalFee.lzTokenFee += fee.lzTokenFee;
+        }
+    }
+
+    function depositIntoContract() public payable onlyOwner {}
+
+    function withdrawFromContract() public onlyOwner {
+        payable(owner()).transfer(address(this).balance);
     }
 }
