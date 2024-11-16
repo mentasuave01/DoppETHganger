@@ -6,7 +6,7 @@ const DynamicConnectButton: React.FC = () => {
   const { isConnected } = useAccount();
   const { setShowAuthFlow } = useDynamicContext();
   return (
-    <div className="w-full flex justify-center mt-4 gap-8">
+    <div className="w-full flex justify-center mt-12 gap-8">
       {!isConnected ? (
         <button className="customConnect" onClick={() => setShowAuthFlow(true)}>
           Connect Wallet
