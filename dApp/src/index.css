@@ -36,7 +36,6 @@ a:hover {
 body {
   margin: 0;
   display: flex;
-  place-items: center; 
    background-image: url("./assets/mainBack.webp"); 
   background-size: cover;
   background-position: center;
@@ -108,12 +107,13 @@ button:focus-visible {
 
 .dappContainer{
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   padding: 35px;
   z-index: 10;
   background:none;
   display: flex;
   flex-direction: column;
+  justify-content: between;
   gap: 10px;
 }
 
