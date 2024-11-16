@@ -13,6 +13,7 @@ export const getChainTab = (chain: number): string => {
       return unichainTab;
     case 25925:
       return bitkubTab;
+
     default:
       return unichainTab;
   }

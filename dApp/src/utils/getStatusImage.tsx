@@ -9,12 +9,12 @@ export const getStatusImage = (status: string): string => {
       return safe;
     case "partially":
       return partiallyConfirmed;
-    case "deployed":
+    case "already_deployed":
       return caDeployed;
-    case "waiting":
+    case "checking":
       return waiting;
     default:
-      return waiting;
+      return safe;
   }
 };
 
