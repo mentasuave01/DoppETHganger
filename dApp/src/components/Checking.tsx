@@ -47,35 +47,28 @@ const Checking: React.FC = () => {
         return;
       }
 
-      try {
-        setStatus("deploying");
-        //delete localstorage
-        localStorage.removeItem("appSalt");
-        await sendCC({
-          address: CONTRACTS.verify_ADDRESS[rOptions[chainIndex].chainId],
-          abi: CONTRACTS.verify_ABI,
-          functionName: "send",
-          args: [rOptions[chainIndex].chainId, salt],
-          value: 1000000000000000n,
-        }).then((tx) => {
-          toast({
-            description: "tx sent" + tx,
-            status: "success",
-            duration: 5000,
-            isClosable: true,
-          });
-          setStatus("deployed");
+      localStorage.removeItem("appSalt");
+      sendCC({
+        address: CONTRACTS.verify_ADDRESS[rOptions[chainIndex].chainId],
+        abi: CONTRACTS.verify_ABI,
+        functionName: "send",
+        args: [rOptions[chainIndex].chainId, salt],
+        value: 1000000000000000n,
+      }).then((tx) => {
+        toast({
+          description: "tx sent" + tx,
+          status: "success",
+          duration: 5000,
+          isClosable: true,
         });
+        setStatus("deployed");
+        setCurrentChainIndex((prev) => prev + 1);
+        deployToChain(chainIndex + 1);
+      });
 
-        if (isSuccess) {
-          setCurrentChainIndex((prev) => prev + 1);
-          deployToChain(chainIndex + 1);
-        }
-      } catch (error) {
-        console.error(
-          `Deployment failed for chain ${rOptions[chainIndex].chainId}:`,
-          error
-        );
+      if (isSuccess) {
+        setCurrentChainIndex((prev) => prev + 1);
+        deployToChain(chainIndex + 1);
       }
     },
     [rOptions, salt, sendCC, isSuccess, toast]
