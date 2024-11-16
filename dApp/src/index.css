@@ -39,6 +39,7 @@ body {
    background-image: url("./assets/mainBack.webp"); 
   background-size: cover;
   background-position: center;
+  overflow: hidden;
 }
 
 h1 {
@@ -118,8 +119,8 @@ button:focus-visible {
 }
 
 .dopperChainBadge{
-  width: 182px;
-  height: 54px;
+  width: 150px;
+  height: 25px;
   border-radius: 12px;
   box-shadow: 0px 1px 2px 0px hsla(243, 24%, 13%, 0.42);
   box-shadow: 0px 1px 1.2px 0px hsla(50, 100%, 63%, 0.42) inset;
@@ -144,7 +145,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
   color: white;
 }
 
-.dopperAddressBadge::before{
+.dopperAddressBadge::before{  
   content: "";
   position: absolute;
   background-color: hsla(50, 100%, 63%, 0.1);
@@ -157,16 +158,35 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
   transform: translate(-50%, -50%);
   z-index: -1;
   overflow: hidden;
+  content: "";
+  position: absolute;
+  background-color: hsla(50, 100%, 63%, 0.1);
+  animation: badgeGlow 2s ease-in-out infinite;
+  transition: background-color 0.3s ease;
 
 }
-
+.dopperAddressBadge.effect::before {
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+}
+@keyframes badgeGlow {
+  0% {
+    background-color: hsla(50, 100%, 63%, 0.1);
+  }
+  50% {
+    background-color: hsla(50, 100%, 63%, 0.3);
+  }
+  100% {
+    background-color: hsla(50, 100%, 63%, 0.1);
+  }
+}
 
 
 
 .customConnect{
   font-family: Montserrat;
   font-weight: 600;
-  font-size: 1.2em;
+  font-size: 1em;
   background: hsla(50, 100%, 63%, 1);
   color: #000;
   box-shadow: 0px 0px 30px 0px hsla(50, 100%, 63%, 0.5) inset;
@@ -205,4 +225,21 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
   filter: blur(10px);
   z-index: 0;
   background-color: hsla(50, 100%, 63%, 0.38);;
+}
+
+.fade {
+  transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+  transform-origin: center;
+}
+
+.fade-in {
+  opacity: 1;
+  filter: blur(0);
+  transform: perspective(1000px) scale(1) rotateX(0);
+}
+
+.fade-out {
+  opacity: 0;
+  filter: blur(8px);
+  transform: perspective(1000px) scale(1.2) rotateX(45deg);
 }
