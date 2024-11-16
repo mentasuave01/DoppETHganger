@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import getStatusImage from "../utils/getStatusImage";
 import getChainTab from "../utils/getChainTab";
 
@@ -7,12 +7,13 @@ interface ChainTabProps {
 }
 
 const ChainTab: React.FC<ChainTabProps> = ({ chain = 1301 }) => {
-  const [status, setStatus] = useState("waiting");
+  //   const [status, setStatus] = useState("waiting");
+
   return (
     <div className="chainTab">
       <img src={getChainTab(chain)} alt="chainLogo" width="100%" />
       <img
-        src={getStatusImage(status)}
+        src={getStatusImage("waiting")}
         alt="status"
         width="30px"
         className="absolute bottom-4 right-3 z-10"

@@ -1,7 +1,7 @@
 import Footer from "./components/Footer";
 import Landing from "./components/Landing";
 
-const Dapp: React.FC<DappProps> = (props) => {
+const Dapp: React.FC = () => {
   return (
     <>
       <Landing />
