@@ -27,11 +27,11 @@ const DialogMenu: React.FC = () => {
             <DialogHeader>
               <DialogTitle> LEGAL IMPLICATONS</DialogTitle>
               <DialogDescription className="mt-4 space-y-4 text-left">
-                <h3 className="text-lg font-semibold text-gray-500 mb-2">
-                  What is an address collision?
-                </h3>
-
                 <div className="space-y-3 text-gray-400">
+                  <p className="leading-relaxed border-l-4 border-gray-200 pl-4">
+                    {" "}
+                    What is an address collision?
+                  </p>
                   <p className="leading-relaxed border-l-4 border-gray-200 pl-4">
                     Collisions relevance from a Legal Perspective
                   </p>
@@ -43,6 +43,31 @@ const DialogMenu: React.FC = () => {
                   <p className="leading-relaxed border-l-4 border-gray-200 pl-4">
                     Liability for not implementing verification systems
                   </p>
+
+                  <div className="flex items-center justify-between mt-6 bg-gray-50 rounded-lg p-4 border border-gray-200">
+                    <a
+                      href="https://github.com/mentasuave01/DoppETHganger/blob/main/docs/doppelgangethLEGAL.pdf"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center gap-2 text-blue-600 hover:text-blue-700 transition-colors"
+                    >
+                      <svg
+                        className="w-5 h-5"
+                        fill="currentColor"
+                        viewBox="0 0 20 20"
+                      >
+                        <path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z" />
+                        <path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z" />
+                      </svg>
+                      Read Full Legal Document
+                    </a>
+
+                    <img
+                      src={`https://api.qrserver.com/v1/create-qr-code/?size=80x80&data=${encodeURIComponent("https://github.com/mentasuave01/DoppETHganger/blob/main/docs/doppelgangethLEGAL.pdf")}`}
+                      alt="QR Code for legal document"
+                      className="w-20 h-20 rounded-lg shadow-sm"
+                    />
+                  </div>
                 </div>
               </DialogDescription>
             </DialogHeader>
@@ -70,6 +95,31 @@ const DialogMenu: React.FC = () => {
                     attacks deploying an upgradable proxy CA for any kind of
                     future usage now!
                   </p>
+
+                  <div className="flex items-center justify-between p-4 bg-gray-50/50 rounded-lg border border-gray-100">
+                    <a
+                      href="https://github.com/mentasuave01/DoppETHganger/blob/main/docs/doppelgangethFAQ.pdf"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center gap-2 text-blue-600 hover:text-blue-700 transition-colors"
+                    >
+                      <svg
+                        className="w-5 h-5"
+                        fill="currentColor"
+                        viewBox="0 0 20 20"
+                      >
+                        <path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z" />
+                        <path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z" />
+                      </svg>
+                      Read Full FAQ Document
+                    </a>
+
+                    <img
+                      src={`https://api.qrserver.com/v1/create-qr-code/?size=80x80&data=${encodeURIComponent("https://github.com/mentasuave01/DoppETHganger/blob/main/docs/doppelgangethFAQ.pdf")}`}
+                      alt="QR Code for FAQ document"
+                      className="w-20 h-20 rounded-lg shadow-sm"
+                    />
+                  </div>
 
                   <div className="pt-4 border-t border-gray-200">
                     <p className="text-sm text-gray-500 mb-3">
