@@ -55,9 +55,45 @@ const DialogMenu: React.FC = () => {
           </DialogTrigger>
           <DialogContent>
             <DialogHeader>
-              <DialogTitle>ATTACK VECTORS</DialogTitle>
+              <DialogTitle>ABOUT</DialogTitle>
               <DialogDescription className="space-y-6 p-4">
-                paco
+                <div className="bg-gradient-to-br from-gray-50 to-gray-100 rounded-lg p-6 shadow-sm border border-gray-200">
+                  <p className="text-lg font-medium text-gray-800 mb-6 leading-relaxed">
+                    Protect your CA cross chain EVM address against{" "}
+                    <span className="text-blue-600 font-semibold">
+                      'CREATE2'
+                    </span>{" "}
+                    and{" "}
+                    <span className="text-blue-600 font-semibold">
+                      'EOA initializing'
+                    </span>{" "}
+                    attacks deploying an upgradable proxy CA for any kind of
+                    future usage now!
+                  </p>
+
+                  <div className="pt-4 border-t border-gray-200">
+                    <p className="text-sm text-gray-500 mb-3">
+                      Crafted at ETH Global Bangkok by
+                    </p>
+                    <div className="flex flex-wrap gap-2">
+                      {[
+                        "mentasuave01",
+                        "victorxva",
+                        "CelicTorresz",
+                        "ariutokintumi",
+                        "jistro",
+                      ].map((name) => (
+                        <a
+                          key={name}
+                          href={`https://twitter.com/${name}`}
+                          className="inline-flex items-center px-3 py-1 rounded-full text-sm bg-blue-50 text-blue-600 hover:bg-blue-100 transition-colors"
+                        >
+                          @{name}
+                        </a>
+                      ))}
+                    </div>
+                  </div>
+                </div>
               </DialogDescription>
             </DialogHeader>
           </DialogContent>
