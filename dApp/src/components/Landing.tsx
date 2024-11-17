@@ -29,7 +29,7 @@ const Landing: React.FC = () => {
             </div>
             <Collisions />
             <div className="w-full flex justify-center items-center gap-4">
-              <div className="w-fit -mt-4">
+              <div className="w-fit">
                 <DynamicConnectButton />
               </div>
               {address && (

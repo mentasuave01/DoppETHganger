@@ -1,0 +1,2850 @@
+[
+    {
+        "address": "0x1228ae74f947c82b4c8c83f19c780184e6b215bc",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x1228ae74f947c82b4c8c83f19c780184e6b215bc",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "polygon",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x1386aa7ab384c2c804ab0ae47e119c091a59c3b0",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x267d6bf6706afb2b2ffc4b497db109338047a4d6",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "celo",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x7ab311deb1ac398d28da298165740990bdcb0c4c",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x267d6bf6706afb2b2ffc4b497db109338047a4d6",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x7a9296ec5853d6728610ce319aabaf0e2e512618",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x53eaa752ba28cc6583580902e0ac47b48638a888",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0xe543e05b1191f8e8e29daf5daaa2ef35bbb41d86",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x770153366d9b0aaf1ff0f87cbec27d942f888dd2",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x35b0ecc952cef736c12a7ef3a830f438f67912b3",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "base",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x2007747d26d266782935bfabbda5b0f1864eb135",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x7b32defdc98a1f8ee7a18a5814b3369d3f269a4e",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x35b0ecc952cef736c12a7ef3a830f438f67912b3",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x6a81be7f5c868f34f109d5b5f38ed67f3395f7b0",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x35b0ecc952cef736c12a7ef3a830f438f67912b3",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "polygon",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x2eeedd564564e42ec28ee51f2fca99682dc2768f",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0xd8681059063d9f7ac99eb70e2884046522d0889b",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x08392960aafed5c5355e756b7649c7750f0cfc54",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x9bb8cab20630b42a2cf2f93fc5b46adaca4bb865",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x98ea0b6ea03abc6a066161e0962e46e1e8d2068f",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x5e90a17c750e82e7df8b47873696565045c7d585",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0xec253c988d659fbc9f418edd7888732eb36e2649",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0xe31107697ac27303a12de3f17b89b53a33a1696e",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "polygon",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0xe31107697ac27303a12de3f17b89b53a33a1696e",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x0c024516b2f35467ca0af99f2093354296b09654",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0xdae2ba97ae5ada624060e8f14a182eb0a2e293e2",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x7e54f5b0c751c9aacd89336a4ff2d66cf5500249",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0xb75604d8d29e9cab757218ce739fbac260758493",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "base",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x1c930de82a7a820751de2474e3574c5e174747cf",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "base",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0xa63879a2c043ed3bc8995e218382611ea60475ca",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "base",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x6515f45381a19df4ea1d830c5c5bc9a1c776b889",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "base",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x2a0003b1d726389751ea80698116d48fc4f32c30",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "base",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x58668e046afd994ac322a5e73ec054c58c5b42f2",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "base",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x55e8858fc67163b953ec3ae030cca246b8d9b76e",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "base",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x2f49beb1b1551c5fe9efa3029c44b65a80ec85b8",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "base",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0xa10dc10537bf24e469c366512a8c3a440227d3c1",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "base",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0xaab0cc6b2bbdf22c13bfd0d0cb9a646947ddd9e4",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "base",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x556c3cbdca77a7f21afe15b17e644e0e98e64df4",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "scroll",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x556c3cbdca77a7f21afe15b17e644e0e98e64df4",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "polygon",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x556c3cbdca77a7f21afe15b17e644e0e98e64df4",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "base",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x1c7035a031abb20a5e51f7a8283315f4748f9923",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "base",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x71000fe55bbb1db33e46c0d88c37d71811df6b0e",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "base",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x71000fe55bbb1db33e46c0d88c37d71811df6b0e",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "polygon",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x0ebbb7e85337cf4ed496dd81a300c6c31ba633c9",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "base",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0xeace1ddaa0101b14ae79e2db48cdacaa6f141357",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "base",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x3c5b1833bc89cc19775904a70f6c8707017e44a9",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "base",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x16496577d5e55590538b07f81adab5553aa4e67b",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "base",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x269b0432f91eb72df7f812a85957c09df34cd7d1",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "base",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x16496577d5e55590538b07f81adab5553aa4e67b",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "polygon",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x278abdb3e85644755d781b0516631b9ac78103f1",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "base",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x6f43bcceec6cc82bfe62851b8106567a510c2458",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "base",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x69517ebccbc01f2ccbe2449336eff2eca10ed2da",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "base",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0xc49266fadae928ad74c1eb44190b8fbdc4d4ba09",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "base",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0xdfb8b7eb3c3d8a7ce077ba9ef6f6c711dade7ede",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "base",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0xd439d9051455c29ad2d5a1e4d3b0f6381ef5eda4",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "base",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x6a1cb896b03fe77658dd0a0e07bef281229b95e5",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "base",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0xe23673cc67f1e10cbe41f0540aa9e55a5b9d1cc6",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "base",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x633bbbe448e31158bb3144eb8f142a1c8041438a",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "base",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0xe25adef14e315a837895a28fc03bd5176ed93e55",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "base",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x77558bdae0a00414c6c5f1ea6a970011af552415",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "polygon",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x4a7522cf29bfb3c9ae68ab7d88d3b6d3e444405e",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "polygon",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x3faf050c4d391ee88fb4037834b691943605b9ed",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "base",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0xccad81ec829d749e90317e304c29bd0e25409a97",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "base",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0xb8f24802700d41a422cdcb1a4bfe72c8642dfda0",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "base",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x6bba67ff55bb0c1ab1809a4d21d5fc568083cd30",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "base",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x2ea4ea5ec29326a9ed74923f91c4e27a8e63a1f7",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "polygon",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x211c0a8fa32e894a128f92161d277ad47125674d",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "base",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x2ea4ea5ec29326a9ed74923f91c4e27a8e63a1f7",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "base",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x71959dcfc45b235efcb516f10a1b69a423a68e7a",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "base",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x948ed30205d09a8bf4705864cf369d457cfe3dd2",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "base",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x394d770895ea75eb15ac94e72ae1f7e60f8df032",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "base",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x99595455ba95b286f8e2614470b865e34f034aa1",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "base",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0xd893d66c5172b269c4c0b5967a85eccc619437d9",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "base",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x7d27a748531d6b4248da917c88eaab1fdb5f6516",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "base",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x71959dcfc45b235efcb516f10a1b69a423a68e7a",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "polygon",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0xa0b86895309d467ebf191e41cc2361fda1f51b0d",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "polygon",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0xa0b86895309d467ebf191e41cc2361fda1f51b0d",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "base",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x34ee48480236594c5953cece7958f7a96c5b2af7",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "base",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x46b168e5260a96304e70e783ba19384c9da075fe",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "base",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x34ee48480236594c5953cece7958f7a96c5b2af7",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "polygon",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x9832e7e40d5a1495ca7bdbcd6a5c0a90d28f6cfa",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "base",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0xd0f4624db844b7abdbfa27516b6bac9bbcaf4f04",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "base",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0xe33997ae5810f2ed6f8331307fd8e8688105985e",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "base",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0xd0f4624db844b7abdbfa27516b6bac9bbcaf4f04",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "polygon",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x46b168e5260a96304e70e783ba19384c9da075fe",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "polygon",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0xa7dc77dfd51dbd768364153e9a4c4e97c68562d1",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "base",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x9634e40912f819baeeca7ee3901e03d5e8077ca2",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "base",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x2767c468ce6346a114d89c8767952edbe95b3bc6",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "base",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x3325244215d0355a733f204ce5a01838313e9960",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "base",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x59293c8efd093091aa919ef6b771aa54a4df79f5",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "polygon",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0xc2b4da84a614e75c355421d08802428b39a90128",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "base",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0xe920142fd7d536b677de1321498b861ee47b6aa0",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "base",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0xeac00d58697d20b3f23185445ab83c226de1818e",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "base",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x7f21d327b46bf28e117291ad45f20c7bbc959b12",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "base",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x13b7955dd551d7a7e86227981d8dfc87969bc902",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "base",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x5df2172916e2cb93d50cc590fdb4c9f0816ead3a",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "base",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x15bc72f8dbf3920c0a191433dd056e49395bb0e7",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "base",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x228bd3a12df71d9531b3c641f81686a42a1c5e91",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "polygon",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0xbb7aae3e0924190c08ba8c1bb58e87a301d1c647",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "base",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x0000c49fc18b92f691cc737cb8af39e241f30000",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "base",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x228bd3a12df71d9531b3c641f81686a42a1c5e91",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "base",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0xdb83519ed15e97bf30c4941f800f615cc2815241",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "base",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x6e26434e4e1d0f7551d12595dc28631619c1610d",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "base",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x7c86aa9cb4999e9d51863e145d498b181b5296de",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "base",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0xce0e532b9598171495ea8698ffeb7787c77c50e1",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "base",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x3e72185729fe157992a8cd5d2f584a25fc575ba4",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "base",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0xfd1d0b28a4092b96d99d66f230bdb87a70509bf8",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "base",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x1fd8fa7246c817fefc97a3ff34db85c2ac47de83",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "base",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x583942be8808838565c08cc5498ef598346fd99d",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "base",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0xfa94f4163cc74d9919645fcf5115f632d17bbdfc",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "base",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x88b0447b4763cb3a798f842774caa24dbb568991",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "base",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x9161a6b71c906127e39caba5e71d85037d698851",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x783d9a0c1625a160537a479547e83207c0252fad",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x5ba8996f5a2187efece48318489aeab6f553b3bb",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "polygon",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x5ba8996f5a2187efece48318489aeab6f553b3bb",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0xfaa34fa0369f67a6a75dc247cf428e80bcf0f655",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0xb1dc4f44e6fd0998b351c4014ff4ac90f13a9e73",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x280df687ee4ab12d2c74e27a021c29b644eafcf6",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x9ac9448dee20d0fefff2e20d03eafce8d606e655",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x5f654aa0d6c1f3fa92f19eeab88fcef07157ef37",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x60765b2c3fc13246bbfa34bef182f866cb32d4ea",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0xc4e432bf015b1a52ef68ecfb4e42e0b4428b96be",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x280efcb982913d32868569b8858abb8688ab65c5",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x8ad54eef9f0eeca4d447ffb16186d6e289102c92",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0xe8a1ee458d0d3ba2950e53527c80dbd49fda29df",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0xbcbf8b8398d68264b38eefb7c627aeb4ef2bff49",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0xc3be0ffe97eb39ad3312cf7e9c8240e3b0862c38",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0xe170af1388f5c13b60768bcad58d9f02a2cd3dcf",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x030da5a97463192ca366e7136cd6d0d2013d487e",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x79719cea3261636abdf32271f13fe6fe090d268e",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x5c2c8262205ac7b066adda602fa1408076f005e7",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x8e5a74fc85c008bc84673963cf256860eaa29811",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x86beb74ba86107910277c9245fdf372367444245",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x0612ebade71e54c7286a48e83f603ab35a0e623d",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x7ee42616cea30557b6b36a65a4886cca4f279178",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x6a426ac6bf7905b6e332bfe7469d26416b81da21",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x01949c3aaa5d019fbd202686cf5bda64932c682b",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x7e769662696ce16172dbd87a908fb46bf5bd2978",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x4a19e5030ab02ed8f9cc75fb6d161f481ed2f92f",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x20db9823fefbf99bfd00b7261e4d00340ff5886f",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x0b52c66a339dd33324cac0f3c473d95e30498008",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0xbbd6dd90364353f3a7742cdfd325658618570ed7",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x74fc9b53f5990ce514ebd6d37fe3cb04a25b3ca5",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x66ee62ba96705dadfa970c81195f647cba279ac6",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0xbe7d2b120bcbb18327ebea731692fa6fef964b59",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x2984b12650157b4d47d76118249c5f54d05905a5",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x02a3ae211f2c9ab862c439665e0c62cc0761c0e0",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x8d6c2ee45e7f155b516f3af084fd3c2d9975c41f",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0xd45441b5af2a7050ae5e9d6554f3c1191f199d4e",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "polygon",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0xc8b095a5c25c3f717b33ac4c2fa34d8688ec99c6",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0xd45441b5af2a7050ae5e9d6554f3c1191f199d4e",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x4d5ac35c2af75846b3944eb0d3c9826a70ff1a18",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0xd1f74f8f5ddf432825d118686bc43c3171346097",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x16afbee52d60b8160fb9e952dfc2370b2a095034",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x6369ea03c2f83aa084336546ffb979abbb182821",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x27846b664a6242f1dae9b96e89c30d579acecc3f",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "polygon",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x27846b664a6242f1dae9b96e89c30d579acecc3f",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0xa53d6c49b1a0082f0a6840b484e8b8cc44cba08d",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x15ab27215166f1c8e02df749f173eae52dfc19f6",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x18b1651d6274c0781c56184461960bfeb07770bf",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x5b144e951022032b27910e0c40666b9bf1d4e01c",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x64c5d17521de20c94cadf66bb6d307d857297469",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x622d688b94d1a77d20aa1663d21c67f2ca6a4830",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x6617892101335033da97ec95921e76e5beca9d08",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x802c304d1da94f3de5e2819e4b2bf074a222aba9",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x7c613bc60fcac4f28fe01975b2557746e7a3611a",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x7abf5649f5b5bfeadd7fdccf4e7b379ebbfec82b",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x0e223db582e3fc2c47ba39f67a1e55b7a75f09fd",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x4959f9a175079364d297ab4300f0497516291cd7",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x769194e8cc392b3c780a9d4e20acd6d92dd82784",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x9cfb071f7a3547cb38e78130e4ec16c057f3037f",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0xa68fc7a871380eaddd03fc513e3e85ebeb53ffd6",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x0c113495aeec4eeb79ea4b831584b980f523bb82",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x7e708ba046ec21e57b5530ae0e947e5ba2d99f5d",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0xf26759ef1d63de6b3fc45dba67b0571020d21241",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0xf26759ef1d63de6b3fc45dba67b0571020d21241",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "polygon",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0xd946a996a6a291917bb267689f65c6c4d1966047",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x657c7d6f3e2869d877176da62e51025fe17ef0a9",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x2851c35947cedffdf4de4f62f8df834ef5b0270c",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x62a8c9022010adb554b0f952b3c5dc8046d40fd0",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0xefe341537d55575574364672289b2786c731025f",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x069402fd3bef9fbedb81e254d6411da614c6b751",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x65d944963072184bb2a228a04beb4535d3969deb",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0xfbaeabf8bb9e517f775a04ca382eee7f5d2e1d06",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x4aeedddfb85dea4a165c1d1874ccc273ec482443",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x5ce51256651aa90eee24259a56529affcf13a3d0",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x3dc3508bbeec4b6a5faa9460c3434b0ba3d143a7",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x7d98d303f4ddf98637065e99f1a0045abe0481c0",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0xd85c8b145442d787a741fdafee755092ce13382e",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x93898a8c43bca6b343ea398952a943838484dfaf",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x8ef4d3ee6494aaabf5d4889af5686baa9331d782",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x0e05e14511e88ca5382d0fee946ead67960f3362",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x28efda4d95ca7e816dff6f726f86a5056ea43397",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x074af57284cea1bd853c18003aa3e6bb9ce6de45",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x53a6c352ffd917fed22254b6a39909d0e3bfc0b6",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x7c72c35d3d0d6fc83953b4d4fdf1bac43d527182",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x996a6872c3b2d68ca64da2a21eeb705835e106bf",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x3398cfecde8ab8dcc61d8b0bccc2e3b18921b47b",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x29af9d1d936955b17d850e09678022ba869f4ab8",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0xaf0a4765880d318933b0cbbd471ad5cadd8fa969",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x00639373bb21a54d1dd7824807933b2d12967e7b",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x95d0fc1b4d2338526c5c925ff6d4a50126abc10e",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "polygon",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x95d0fc1b4d2338526c5c925ff6d4a50126abc10e",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x83850c3ece62da5ad31f9617296374ab5cf1f1da",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0xc1413aa5070e1af60a123c57ab2874285592485e",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0xba8bf160f946ac3c1fb8b28dbecdba1890ddb0a9",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x74f45adac8301cb3ef38e906b08b6d88041aaef3",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0xe93b6db1f1f67a015c9bdcc92df6fd71dfe4cc65",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x9cdf588ed5504f6372b7e8aa235de91411fb5120",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0xfc9486297b7b3813cd6b4f81a67eea849c07bdac",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0xbf9b6d6ede2a0f0a99e65830808509cdd234954d",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x7b39e62798cc31503dd9bd9c6e06794200bce728",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "base",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x7b39e62798cc31503dd9bd9c6e06794200bce728",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "polygon",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x7b39e62798cc31503dd9bd9c6e06794200bce728",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x7b39e62798cc31503dd9bd9c6e06794200bce728",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "celo",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x93aa7b089348e189aaa0cd32915596e3c4e6e2b4",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x1691ec695a6596f020104c2d141c7b45277a178d",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x5771d7267a0a93801529bbf87a6a05974cea2c9d",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0xafbd4684fdff593245f22f5fa2fb06699e83dbe8",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x8ae2e86952616482bfba40925bb51b9740689935",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x8819dc00be173de348ae5c7f764aaa3123c23f11",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x0396402fefc05a172e5bf98db1e258f9f221be65",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0xcea10de7695f1d89a92835ce1a411952f2533ebf",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0xd9355386ef9aa45e01610d16ba8a38f78aceb97f",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x1d055abe7cdca4af9f361f7c8ac71486fa6ae3a7",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0xec2d9c83f74e49c410a76b65b773a3cef3f6de89",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x54ffdca668eda0a09f42df00874efb10624a7fb0",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x98af1b56bf612cf32b4959e2d287008dea5028bb",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x7e581b5dce2134e68feb68458c814049035f05fc",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x12405af0db12b977f2baee880ed165e76a2b1b29",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x8bf3d7ef109dd8d48759a55607fece5e9088e3ae",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x0c68410ccb5beaf5b960c2a62438d15b5a8c3e63",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0xb67b464320458d1976ff54912a4969c80f8f4fa4",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x07221de6714a6599bc43331972390781d39c1063",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x326b2bcf3b2ff6c5eec752d20aeb8a47d05bcc0e",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x43a31930339399871b268589106f2d4c39827e46",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x326b2bcf3b2ff6c5eec752d20aeb8a47d05bcc0e",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "polygon",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0xeb4ae1613d8b8faa5c72e1740f713d8e437f214e",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0xa345b886f86c5ee71340aa2c2cdf3b1731967aea",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0xfdadc8e89a75d9d0e97b2aead25feb10660f648f",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0xa88d5cd2fa2aa432edfffe3625b183912203e537",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x358d374f597ef63a2160153de49550dba011e471",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "polygon",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x358d374f597ef63a2160153de49550dba011e471",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x83eb9bb3cef579bd0c0db6d89a4e6b2c2ee96d1d",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0xc27e603a99bc649db0921b2b6ec5eb44794ea77c",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x915d8be23a00b4843492a378e1a14e6680c1b2d3",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0xeb62d82263ad4bac31e9bdb9456f13bfec7620dd",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x2373fad5f961566e66d6e2d6163ab51c252311eb",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x87155f957f8858a442aa9abbc35c06c25ce31cfc",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0xe508f4d9077be218a843664c9df28a2c00408fd0",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x8535180b5839f5eb70656afd7d5e73e29be79460",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0xfedfe9167163c0d2a3c185ce4e1db06af2ff3ac3",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x87f95a771deb8b08f4bc7a5ffd942682c881f628",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x3fdc2e7ce4c2254bb2ad48a8ee549538b834c945",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x5c881743e8eb3d8f3ef8f6d11b487a56920d8484",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0xaa85807cdc2fcf4f3c9fddc330edc7c6d7b51ea9",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0xe7572c282db335f5840c19c3c76bc61424036a1d",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x48585398b5af70f811f45bd5ab2e37d0a0107b91",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0xa87444e79d13736986f842494f6e3022b8a740ba",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0xa87444e79d13736986f842494f6e3022b8a740ba",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "polygon",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0xff9d1acd0c35a09eb64f0f8d45325c03ce61c051",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0xa4eed88535cadb79e382b6cadcc3b0625ddfb4d5",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x3bf9ddbedf7959016d579bff33697bbec7c0df83",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0xb9b4153dd495659253a23c149c0759492f071464",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0xb96959ff53ce723f20373229072c9faf207811fb",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x70fc7cc1b4e088d7954a15df98d5abaa561b31f0",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x1bfbface1abeb906ec8d8c5dc2973c4a32a82301",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x05c9292b58c3952b34d68ab9b2df2388f9db727c",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x64ce124acb65046c8ec62a98dfff4ad8c7626b6b",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0xe42073eba832e9e9109dd11e40b3b92d6130424f",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0xe42073eba832e9e9109dd11e40b3b92d6130424f",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "polygon",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x452763d01946ad6be503c2490d5964a4b57f491b",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x7831c2c9de76cb83e9ba147d51d0894a1557b32e",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x8761b55af5a703d5855f1865db8fe4dd18e94c53",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "base",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x17e10ebc95907269fbe90343a6d1d2d018b5c97f",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x8869ef4d9becd90a54ee9e4557f9b06bcbe492c3",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x7b7a7f26db00692ed0bf7cc5aa842f1a9706e296",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x7b7a7f26db00692ed0bf7cc5aa842f1a9706e296",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "celo",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x8761b55af5a703d5855f1865db8fe4dd18e94c53",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "polygon",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x8761b55af5a703d5855f1865db8fe4dd18e94c53",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x21befc016488465fe7384c4517d50c0330210f3a",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "base",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x21befc016488465fe7384c4517d50c0330210f3a",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "polygon",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x21befc016488465fe7384c4517d50c0330210f3a",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "celo",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x21befc016488465fe7384c4517d50c0330210f3a",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x2856fe878e27c7effb34cee495f821413479b5f8",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x5dc2c7fa451876a7f09325441a28f13e9bc27cfa",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x2856fe878e27c7effb34cee495f821413479b5f8",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "polygon",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0xaa0ea00bf099095cf87351bec0587a3834924dac",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x3060139eb96398df2a0c266f7f7dbd574a89eeb7",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x66a554dcffc88f111c380fcde7ed2f169ffa3225",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x2ce52fe78976dd11a65875cd8d6b31649104c311",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x3eb35cb25c320079983d0bb023bfaecf4c04b703",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x2fa612b58798736ff0c93778c2660b02bd16bd34",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x770860328703e0f29a4c56e4510b3d27cebc9dd2",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x4d46355d83a368a386ec591b4849757d81700184",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "polygon",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x4d46355d83a368a386ec591b4849757d81700184",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x77afd9e7ae7d3a346b9acccdee140fd9ca1ef00c",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0xc1c1031e4a44b98707203480029e6576cb3267e3",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "polygon",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0xd2f6961bbc1616011d319706091ca9bd51c5be13",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x08e9d9e6f426cdb374a3c1e4529a3ceacc34b6be",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x0853a5a1162b9ee4e621251ca8a307ee6fcd2c52",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0xcb6e759cad0f15b7e1f0d4dc2d3c71bd6972087b",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x7a9039e9a055cf7e17f267ac4c84e4feeccd6605",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0xcde394e5d55c5e469e94c8e5968861d1a4f1d169",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0xc4b3012581fe67a860ca4588f3bd5b6a8e853849",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x6dc95dd4d3adb089c9a1884c469e7433a60c21de",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x1599e0cd69605fbe19d881b0db2cdbc258e91fb8",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x8c392ac16202aac225022917017fdcda92d8b041",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0xbfec95c4dda3c7b3524c31cbf840b778add220fb",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0xb68111d6a64b49c6db1641034356cafba2b02433",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x0000000000b19acb01ce6f497ecc5e36e0a5b0e7",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x76feb1778a37f77ab0b5899911b864d5f0eca1b3",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0xd8fdfc65ca13a265e9552392023383f8ed6e970d",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x2b938f00a8a32a1295983711f007ffae33d035cf",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "celo",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x2b938f00a8a32a1295983711f007ffae33d035cf",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x07ced903e6ad0278cc32bc83a3fc97112f763722",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "base",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x7ecc8eb5de1d9446abe276c5c9fc60fe30e90d9b",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x182554b8c7f844ef32004e3c52d8e72ba4f74905",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0xfb810e12c827e842af6019d5308949314395076f",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0xedb26f0c3a518de077b117e88a4251951701993b",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "polygon",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0xedb26f0c3a518de077b117e88a4251951701993b",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x07ced903e6ad0278cc32bc83a3fc97112f763722",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "polygon",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x07ced903e6ad0278cc32bc83a3fc97112f763722",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0xedb26f0c3a518de077b117e88a4251951701993b",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "celo",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0xfb810e12c827e842af6019d5308949314395076f",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "celo",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x07ced903e6ad0278cc32bc83a3fc97112f763722",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "celo",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x728e1a81faf3cea12d86d55c6fa7b803155c757d",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x35f2622d2dd28e2a8ae10eb1fa129358b1420f9d",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0xa0ecce621d530e37afb8a2837bab5a910af7e6dd",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x47ef181366da0fc170a2e62c51a995c79458ebee",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x8f4cf5166f9ad731d4fb99b6ed06dd593b6bdec4",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0xea612be8d0b292021840b8e85e2bcec4e0e02898",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x3a3e853586ef6006206d6ab5c12a39ddf19b6459",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0xd6dc2bf1c21fc820f28d24c4bb2f990efdb4f437",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x90cbb1fc51076bf443d5c2e4bfffe33c7d7125f2",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x42de876a098bae9dad32dcece40d3d0ab587d5d5",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0xe334c2bdf955b66c0ba5f97ef25630378f4906f6",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0xe0d336eca4f0d99a8017ce3abe1dedf8c7cd7494",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0xaade29984d500bd74ff2a2cde434e46f92b44e4e",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0xff06c94d8487fddca1d11cea42838559dd53aeec",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x2ab0ef89bf373758303846df7d30a3283a8233e7",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x03d7f1dd126a4e5b287a0cc302bce7e91bc55f76",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x6e454c2ced3e7b9143d2c838fe2769cde79039a4",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x0d24cfaf9f384fee240c08044d5858d5eb38c736",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0xc00fdb98447e37e87ee7a18dea931efe7c59dfd0",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x2aa7ff04460cddc61a2b466c9a2924603863a030",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0xd7300e11c28af2100b8f2c52907321dda5c8e41c",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x02131a051d0da5d1188a20e4788bbd881838f074",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0xe7fe60e04d605b54ec17336d2a44078c3d14bc11",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0xd7300e11c28af2100b8f2c52907321dda5c8e41c",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "base",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x80fd81e7c9896e283f1baa0dbb48a856b54289e8",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0xfaa16f73486b7f78eadeeea8d2aaea98af3a55b3",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0xd21da423c4d2026757b372e23d65eedb3a7275fb",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x81f099d0ff5ce6433e5f6745884661f167a1d43e",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "gnosis",
+        "other_type": "EOA",
+        "has_tokens": true
+    },
+    {
+        "address": "0x6f5258feb5862b661829315841b0718d6e56ca2c",
+        "origin_chain": "ethereum",
+        "origin_type": "CA",
+        "other_chain": "polygon",
+        "other_type": "EOA",
+        "has_tokens": true
+    }
+]

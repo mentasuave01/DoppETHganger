@@ -12,7 +12,8 @@ export const getChainTab = (chain: number): string => {
     case 1301:
       return unichainTab;
     case 25925:
-      return bitkubTab;
+      return bitkubTab; //TODO CHANGE FOR ETH SEPOLLIA
+
     default:
       return unichainTab;
   }

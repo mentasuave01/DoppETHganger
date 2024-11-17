@@ -197,6 +197,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 15px;
 }
 
 .chainTab{
@@ -210,22 +211,12 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
 .glowyEffect {
-  position: relative;
+  position: relative; 
   margin-top: 8px;
+  box-shadow: 0px 0px 52.9px 0px hsla(50, 100%, 63%, 0.38);
 }
 
-.glowyEffect::before {
-  content: '';
-  position: absolute;
-  width: calc(100% + 7px);  
-  height: calc(100% + 7px);
-  top: 35px;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  filter: blur(10px);
-  z-index: 0;
-  background-color: hsla(50, 100%, 63%, 0.38);;
-}
+
 
 .fade {
   transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
@@ -242,4 +233,20 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
   opacity: 0;
   filter: blur(8px);
   transform: perspective(1000px) scale(1.2) rotateX(45deg);
+}
+
+
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+    scale: 1.2;
+  }
+}
+
+.animate-spin {
+  animation: spin 1s linear infinite;
 }
