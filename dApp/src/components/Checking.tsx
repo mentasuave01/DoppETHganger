@@ -57,9 +57,7 @@ const Checking: React.FC = () => {
       }).then((tx) => {
         toast({
           description: "tx sent" + tx,
-          status: "success",
-          duration: 5000,
-          isClosable: true,
+          title: "Transaction Sent",
         });
         setStatus("deployed");
         setCurrentChainIndex((prev) => prev + 1);
@@ -138,7 +136,7 @@ const Checking: React.FC = () => {
       )}
       {status === "verified" && (
         <div className="text-white bg-black rounded-2xl p-2 mt-10 glowyEffect">
-          {saltyAddress}
+          {saltyAddress as string}
         </div>
       )}
 
