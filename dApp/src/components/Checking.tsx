@@ -173,7 +173,7 @@ const Checking: React.FC = () => {
             </div>
 
             <a
-              href={`https://etherscan.io/tx/${txHash}`}
+              href={`https://scroll-sepolia.blockscout.com/address/${txHash}`}
               target="_blank"
               rel="noopener noreferrer"
               className="mt-2 text-sm text-blue-600 hover:text-blue-700 flex items-center gap-1"
