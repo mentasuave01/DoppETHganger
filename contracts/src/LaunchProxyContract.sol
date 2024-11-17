@@ -19,8 +19,9 @@ contract LaunchProxyContract is OApp {
     mapping(uint256 => address) public proxies;
 
     constructor(
-        address _endpoint
-    ) OApp(_endpoint, msg.sender) Ownable(msg.sender) {
+        address _endpoint,
+        address _owner
+    ) OApp(_endpoint, _owner) Ownable(_owner) {
         // ETH Sepolia Testnet
         lz[11155111] = lzMetadata(
             0x6EDCE65403992e310A62460808c4b910D972f10f,

@@ -22,11 +22,6 @@ contract Verify is OApp {
             0x6EDCE65403992e310A62460808c4b910D972f10f,
             40161
         );
-        // Unichin Testnet
-        lz[1301] = lzMetadata(
-            0xb8815f3f882614048CbE201a67eF9c6F10fe5035,
-            40333
-        );
         // Scroll Testnet
         lz[534351] = lzMetadata(
             0x6EDCE65403992e310A62460808c4b910D972f10f,
