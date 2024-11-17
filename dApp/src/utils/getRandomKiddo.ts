@@ -1,3 +1,3 @@
 export function randomInt(): number {
-  return Math.floor(Math.random() * (256 - 0 + 1)) + 0;
+  return Math.floor(Math.random() * (25600 - 0 + 1)) + 0;
 }
