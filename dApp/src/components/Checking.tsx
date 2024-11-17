@@ -38,6 +38,7 @@ const Checking: React.FC = () => {
   const [salt, setSalt] = useState(storedSalt ? parseInt(storedSalt) : 0);
   const { writeContractAsync: sendCC, isSuccess } = useWriteContract();
   const [currentChainIndex, setCurrentChainIndex] = useState(0);
+  const [txHash, setTxHash] = useState("");
 
   // Memoize deployToChain function
   const deployToChain = useCallback(
@@ -59,9 +60,11 @@ const Checking: React.FC = () => {
           description: "tx sent" + tx,
           title: "Transaction Sent",
         });
+        setTxHash(tx);
         setStatus("deployed");
         setCurrentChainIndex((prev) => prev + 1);
         deployToChain(chainIndex + 1);
+        alert("Deployed");
       });
 
       if (isSuccess) {
@@ -149,7 +152,50 @@ const Checking: React.FC = () => {
           />
         ))}
       </div>
+      {txHash && (
+        <div className="w-full max-w-lg mx-auto mt-4">
+          <div className="bg-gray-50 rounded-lg p-4 border border-gray-200 shadow-sm">
+            <div className="flex items-center justify-between">
+              <div className="flex items-center space-x-2">
+                <div className="h-2 w-2 rounded-full bg-green-400 animate-pulse"></div>
+                <span className="text-sm text-gray-500">Transaction Sent</span>
+              </div>
+              <button
+                onClick={() => navigator.clipboard.writeText(txHash)}
+                className="text-blue-600 hover:text-blue-700 text-sm"
+              >
+                Copy Hash
+              </button>
+            </div>
 
+            <div className="mt-2 font-mono text-sm text-gray-700 break-all">
+              {txHash}
+            </div>
+
+            <a
+              href={`https://etherscan.io/tx/${txHash}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-2 text-sm text-blue-600 hover:text-blue-700 flex items-center gap-1"
+            >
+              View on Explorer
+              <svg
+                className="w-4 h-4"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+      )}
       {status === "verified" && (
         <button className="customConnect check" onClick={handleDeploy}>
           Deploy
