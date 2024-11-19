@@ -26,30 +26,28 @@ const Collisions: React.FC = () => {
         id="chainContainers"
         className={`fade ${fade ? "fade-out" : "fade-in"}`}
       >
-        <div className="w-full flex justify-center mt-2 gap-8 overflow-hidden">
-          <div id="chainOne" className="dopperChainBadge">
-            {collision.origin_type}: {collision.origin_chain}
+        <div className="w-full flex flex-wrap justify-center mt-4 gap-4">
+          <div className="chainContainer">
+            {/* <div className="dopperChainBadge">
+              {collision.origin_type}: {collision.origin_chain}
+            </div> */}
+            <div className="dopperAddressBadge">{collision.address}</div>
+            <img
+              src={getNetworkLogo(collision.origin_chain)}
+              alt="origin_chain"
+              className="w-10 h-10 rounded-full"
+            />
           </div>
-          <div id="chainTwo" className="dopperChainBadge">
-            {collision.other_chain}: {collision.other_type}
-          </div>
-        </div>
-        <div className="w-full flex justify-center mt-4 gap-2">
-          <div id="addressOne" className="dopperAddressBadge">
-            {collision.address}
-          </div>
-          <img
-            src={getNetworkLogo(collision.origin_chain)}
-            alt="origin_chain"
-            className="w-10 h-10 rounded-full "
-          />
-          <img
-            src={getNetworkLogo(collision.other_chain)}
-            alt="origin_chain"
-            className="w-10 h-10 rounded-full "
-          />
-          <div id="addressTwo" className="dopperAddressBadge">
-            {collision.address}
+          <div className="chainContainer">
+            {/* <div className="dopperChainBadge">
+              {collision.other_chain}: {collision.other_type}
+            </div> */}
+            <div className="dopperAddressBadge">{collision.address}</div>
+            <img
+              src={getNetworkLogo(collision.other_chain)}
+              alt="other_chain"
+              className="w-10 h-10 rounded-full"
+            />
           </div>
         </div>
       </div>

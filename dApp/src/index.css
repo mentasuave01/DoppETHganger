@@ -34,9 +34,7 @@ a:hover {
 }
 
 body {
-  margin: 0;
-  display: flex;
-   background-image: url("./assets/mainBack.webp"); 
+  background-image: url("./assets/mainBack.webp"); 
   background-size: cover;
   background-position: center;
   overflow: hidden;
@@ -105,17 +103,12 @@ button:focus-visible {
     @apply bg-background text-foreground;
   }
 }
-
-.dappContainer{
-  width: 100%;
-  min-height: 100vh;
-  padding: 35px;
-  z-index: 10;
-  background:none;
+.dappContainer {
   display: flex;
   flex-direction: column;
-  justify-content: between;
-  gap: 10px;
+  width: 100%;
+  height: 100vh; 
+  margin-top: 5px;
 }
 
 .dopperChainBadge{
@@ -143,6 +136,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
   font-family: Montserrat;
   z-index: 10;
   color: white;
+  white-space: nowrap;
 }
 
 .dopperAddressBadge::before{  
@@ -249,4 +243,24 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 
 .animate-spin {
   animation: spin 1s linear infinite;
+}
+.chainContainer {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.dopperChainBadge, .dopperAddressBadge {
+  font-size: 16px;
+  padding: 10px;
+  white-space: nowrap;
+}
+
+@media (max-width: 600px) {
+  .dopperChainBadge, .dopperAddressBadge {
+    font-size: 12px;
+    padding: 5px;
+    white-space: normal;
+    word-wrap: break-word;
+  }
 }
